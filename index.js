@@ -17,7 +17,7 @@ function renderData(responseJson) {
         <p>
         ${item.description}
         </p>
-        <a href="${item.url}">
+        <a href="${item.url}" target="_blank">
         ${item.url}
         </a>
         </li>
